@@ -1,0 +1,58 @@
+.new-poll-card {
+    background-color: #131313; /* Цвет карточки */
+    color: #e7e8e8; /* Цвет текста */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px; /* Ширина карточки */
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-poll-card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 15px;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  .form-field label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1f1f1f; /* Цвет фона полей ввода */
+    color: #e7e8e8; /* Цвет текста в полях ввода */
+  }
+  
+  .new-poll-card button {
+    background-color: #84309C; /* Цвет кнопки */
+    color: #ffffff; /* Цвет текста на кнопке */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .new-poll-card button:hover {
+    background-color: #6b247c; /* Цвет кнопки при наведении */
+  }
+  
+  .form-button{
+    display: flex;
+    justify-content: center;
+  }
